@@ -1,50 +1,50 @@
-const convert = () => {
-  // Dev implementation
+function convert() {
+  // Student implementation
   return;
 };
 
 const executeforEach = () => {
-  // Dev implementation
+  // Student implementation
   return;
 };
 
 const mapArray = () => {
-  // Dev implementation
+  // Student implementation
   return;
 };
 
 const filterArray = () => {
-  // Dev implementation
+  // Student implementation
   return;
 };
 
 const flipOver = () => {
-  // Dev implementation
+  // Student implementation
   return;
 };
 
 const makeListFromRange = () => {
-  // Dev implementation
+  // Student implementation
   return;
 };
 
 const getArrayOfKeys = () => {
-  // Dev implementation
+  // Student implementation
   return;
 };
 
 const substitute = () => {
-  // Dev implementation
+  // Student implementation
   return;
 };
 
 const getPastDay = () => {
-  // Dev implementation
+  // Student implementation
   return;
 };
 
 const formatDate = () => {
-  // Dev implementation
+  // Student implementation
   return;
 };
 

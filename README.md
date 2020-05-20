@@ -8,11 +8,11 @@ convert('1', 2, 3, '4') // [1, '2', '3', 4]
 
 executeforEach([1,2,3], function(el) {console.log(el * 2)}) // logs 2 4 6
 
-3. Write function, which returns transformed array based on function, which passed as a second parameter (callback). If array contains a number as string, it should convert it and return as number. You’re allowed to change a body of that callback function if you need. Reuse function from task 2.
+3. Write function, which returns transformed array based on function, which passed as a second parameter (callback). If array contains a number as string, it should convert it and return as number. You’re allowed to change a body of that callback function if you need.You can reuse function from task 2.
 
 mapArray([2, '5', 8], function(el) {return el + 3}) // returns [5, 8, 11]
 
-4. Write function, which returns filtered array based on function, which passed as a parameter. Reuse function from task 2.
+4. Write function, which returns filtered array based on function, which passed as a parameter.You can reuse function from task 2.
 
 filterArray([2, 5, 8], function(el) { return el % 2 === 0 }) 
 // returns [2, 8]
@@ -26,7 +26,7 @@ flipOver('hey world') // 'dlrow yeh'
 makeListFromRange([2, 7]) // [2, 3, 4, 5, 6, 7]
 
 7. Write a function that accepts an array of object and returns new array of values by passed key name.
-That function should not change the original array. Reuse function from task 2. 
+That function should not change the original array. You can reuse function from task 2. 
  
 const actors = [
   { name: ‘tommy’, age: 36 },
@@ -35,7 +35,7 @@ const actors = [
  
 getArrayOfKeys(actors, ‘name’); // [‘tommy’, ‘lee’]
 
-8. Write function substitute() that accepts an array of numbers and manages to replace all numbers lower than 30 with '*'. It should return a new array with numbers and '*' instead of numbers lowest from 30. Reuse function from task 3.
+8. Write function substitute() that accepts an array of numbers and manages to replace all numbers lower than 30 with star("*"). It should return a new array with numbers and '*' instead of numbers lowest from 30. You can reuse function from task 3.
 
 substitute([58, 14, 48, 2, 31, 29]); // [58, '*', 48, '*', 31, '*']
 
@@ -49,5 +49,5 @@ getPastDay(date, 365); // 2, (2 Jan 2018)
 
 10. Write a function that formats a date in such format "YYYY/M/d HH:mm".
 
-formatDate(new Date('6/15/2018 09:15:00')) // "2018/6/15 09:15"
-formatDate(new Date()) // "2020/1/7 12:56" // gets current local time
+formatDate(new Date('6/15/2018 09:15:00')) // "2018/06/15 09:15:00"
+formatDate(new Date()) // "2020/01/07 12:56" // gets current local time
