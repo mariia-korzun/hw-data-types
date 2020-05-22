@@ -1,7 +1,7 @@
 function convert() {
   // Student implementation
   return;
-};
+}
 
 const executeforEach = () => {
   // Student implementation
