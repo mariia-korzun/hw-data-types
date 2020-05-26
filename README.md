@@ -85,8 +85,8 @@ getPastDay(date, 365); // 2, (2 Jan 2018)
 
 #### For example:
 ```
-formatDate(new Date('6/15/2018 09:15:00')) // "2018/06/15 09:15:00"
-formatDate(new Date()) // "2020/01/07 12:56" // gets current local time
+formatDate(new Date('6/15/2018 09:15:00')) // "2018/06/15 09:15"
+formatDate(new Date()) // gets current local time in given format("YYYY/M/d HH:mm")
 ```
 
 <hr>
