@@ -46,6 +46,7 @@ flipOver('hey world') // 'dlrow yeh'
 #### For example:
 ```
 makeListFromRange([2, 7]) // [2, 3, 4, 5, 6, 7]
+* makeListFromRange([8]) // [8]
 ```
 <hr>
 
