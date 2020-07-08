@@ -63,7 +63,7 @@ getArrayOfKeys(actors, ‘name’); // [‘tommy’, ‘lee’]
 ```
 <hr>
 
-### Task №8. Write function called “substitute”, that accepts an array of numbers and replaces all numbers lower than 30 with a star("&#42"). It should return a new array of numbers and "&#42" instead of numbers lower than 30. You can reuse the function from task 3.
+### Task №8. Write function called “substitute”, that accepts an array of numbers and replaces all numbers lower than 30 with a star("&#42;"). It should return a new array of numbers and "&#42;" instead of numbers lower than 30. You can reuse the function from task 3.
 
 #### For example:
 ```
