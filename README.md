@@ -1,6 +1,6 @@
 # Data types homework
 
-### Task №1
+### TASK №1
 
 ### Write a function called “convert”, that converts the argument’s data-type. If the argument is a string, convert it to a number and vice versa. It should return an array of converted values.
 
@@ -11,7 +11,7 @@ convert(5, 6, 23, '66') // ['5, '6', '23', 66]
 ```
 <hr>
 
-### Task №2
+### TASK №2
 
 ### Write a function called “executeforEach”, that iterates over the array and executes a function on each element.
 
@@ -21,7 +21,7 @@ executeforEach([1,2,3], function(el) {console.log(el * 2)}) // logs 2 4 6
 ```
 <hr>
 
-### Task №3
+### TASK №3
 
 ### Write a function called “mapArray”, that returns a transformed array based on the function, which was passed as a second parameter (callback). If the array contains elements of a string type, they should be converted to a number type. You’re allowed to change a body of that callback function if you need. You can reuse the  function from task 2.
 
@@ -31,7 +31,7 @@ mapArray([2, '5', 8], function(el) {return el + 3}) // returns [5, 8, 11]
 ```
 <hr>
 
-### Task№4
+### TASK №4
 
 ### Write a function called “filterArray”, that returns a filtered array based on function, which was passed as a parameter. You can reuse the function from task 2.
 
@@ -41,7 +41,7 @@ filterArray([2, 5, 8], function(el) { return el % 2 === 0 }) // returns [2, 8]
 ```
 <hr>
 
-### Task №5
+### TASK №5
 
 ### Write a function called “flipOver”, that reverses a string passed into it.
 
@@ -51,7 +51,7 @@ flipOver('hey world') // 'dlrow yeh'
 ```
 <hr>
 
-### Task №6
+### TASK №6
 
 ### Write a function called “makeListFromRange”, that creates an array from a given range of numbers.
 
@@ -62,7 +62,7 @@ makeListFromRange([2, 7]) // [2, 3, 4, 5, 6, 7]
 ```
 <hr>
 
-### Task №7
+### TASK №7
 
 ### Write a function called “getArrayOfKeys”, that accepts an array of objects and one of the object’s key. It should return a new array of values according to the passed key. The function should not change the original array. You can reuse the function from task 2.
 
@@ -77,7 +77,7 @@ getArrayOfKeys(actors, ‘name’); // [‘tommy’, ‘lee’]
 ```
 <hr>
 
-### Task №8
+### TASK №8
 
 ### Write function called “substitute”, that accepts an array of numbers and replaces all numbers lower than 30 with a star("&#42;"). It should return a new array of numbers and "&#42;" instead of numbers lower than 30. You can reuse the function from task 3.
 
@@ -87,7 +87,7 @@ substitute([58, 14, 48, 2, 31, 29]); // [58, '*', 48, '*', 31, '*']
 ```
 <hr>
 
-### Task №9
+### TASK №9
 
 ### Write a function called “getPastDay”, that returns a day number that was certain amount of days ago from the passed date. It should not change the given source date.
 
@@ -100,7 +100,7 @@ getPastDay(date, 365); // 2, (2 Jan 2018)
 ```
 <hr>
 
-### Task №10
+### TASK №10
 
 ### Write a function - formatDate, that formats a date in such format "YYYY/MM/dd HH:mm".
 
